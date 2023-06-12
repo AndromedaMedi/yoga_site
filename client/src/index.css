@@ -1,0 +1,19 @@
+/* index.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Additional custom styles */
+
+input[type="text"],
+input[type="name"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  @apply w-full border border-primary hover:border-secondary my-3 py-3 px-4;
+}
+
+button.primary {
+  @apply bg-primary hover:bg-secondary text-white my-3 py-3 px-4 w-full;
+}
